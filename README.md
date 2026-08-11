@@ -32,8 +32,10 @@ environment used PyTorch 2.7.1 with CUDA 11.8. Install the PyTorch wheel matchin
 your local CUDA driver; for CUDA 11.8:
 
 ```bash
-conda env create -f environment.yml
-conda activate usmorph
+conda env create -f SNR-HML
+.yml
+conda activate SNR-HML
+
 
 pip install torch==2.7.1 torchvision==0.22.1 --index-url https://download.pytorch.org/whl/cu118
 bash scripts/setup_environment.sh
