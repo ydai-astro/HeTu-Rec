@@ -1,5 +1,4 @@
-# USmorph Learning Pipeline
-
+#SNR-HML
 Reproducible code for two linked image-analysis workflows:
 
 1. **Unsupervised learning (`unsupervised/`)**: extract DINOv3 image features,
