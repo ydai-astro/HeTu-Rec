@@ -1,4 +1,4 @@
-#SNR-HML
+#HeTu-Rec
 Reproducible code for two linked image-analysis workflows:
 
 1. **Unsupervised learning (`unsupervised/`)**: extract DINOv3 image features,
@@ -32,9 +32,9 @@ environment used PyTorch 2.7.1 with CUDA 11.8. Install the PyTorch wheel matchin
 your local CUDA driver; for CUDA 11.8:
 
 ```bash
-conda env create -f SNR-HML
+conda env create -f HeTu-Rec
 .yml
-conda activate SNR-HML
+conda activate HeTu-Rec
 
 
 pip install torch==2.7.1 torchvision==0.22.1 --index-url https://download.pytorch.org/whl/cu118
