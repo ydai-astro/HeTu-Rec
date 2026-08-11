@@ -93,7 +93,7 @@ python prepare_dataset.py \
   --source ../../your_source_directory \
   --positive-folders 18 28 31 \
   --num-folders 50 \
-  --image-size 100 \
+  --image-size 224 \
   --seed 42
 
 python verify_dataset.py
@@ -109,7 +109,7 @@ nohup bash run_train.sh > full_d4_seed42.log 2>&1 &
 nohup bash run_test.sh runs/full_d4_seed42 > full_d4_seed42_test.log 2>&1 &
 ```
 
-The model resizes 100x100 RGB PNGs to 224x224 in memory using bicubic
+The model resizes 800x800 RGB PNGs to 224x224 in memory using bicubic
 interpolation without cropping. Training applies a random D4 transform. Validation
 and test use 8-view D4 test-time augmentation. The threshold is selected only on
 the validation split and locked before the independent test split is evaluated.
