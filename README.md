@@ -1,4 +1,5 @@
 #HeTu-Rec
+HeTu-Rec is a reproducible image-analysis framework based on DINOv3 for searching and recovering candidate Galactic supernova remnants from radio images.
 Reproducible code for two linked image-analysis workflows:
 
 1. **Unsupervised learning (`unsupervised/`)**: extract DINOv3 image features,
